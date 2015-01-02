@@ -36,11 +36,14 @@ Pinhole f-stop
 Pinhole ISO
 
 Sample usage:
-> pinhole.py 2.8 294. 100.0 6.25 0.01
+pinhole.py 2.8 294. 100.0 6.25 0.01
 
 f scaling factor: 11025.0
+
 ISO scaling factor: 16.0
+
 unadjusted exposure time: 0:29:24.000
+
 adjusted   exposure time: 4:50:39.917
 
 In this example the camera says our exposure time should be 1/100th of a second. That's a nominal EV of 11. The unadjusted exposure time is about a half hour. The adjusted exposure time is almost five hours. The adjusted time here is likely quite wrong but the only equation I could find for the reciprocity breakdown adjustment of paper negatives was the one in the script.
